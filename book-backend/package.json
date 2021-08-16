@@ -1,0 +1,23 @@
+{
+  "name": "book-backend",
+  "version": "1.0.0",
+  "description": "website for book stored",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aniket Vairagade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
